@@ -1,0 +1,11 @@
+
+需要安装gcc编译器和sqlite3等库，然后导入数据库创建my.db并且使用
+CREATE TABLE usr(name text primary key , pass text);
+CREATE TABLE record(name text , date text,word text);
+CREATE TABLE history(name text, word text, time text);
+这三个指令创建对应的表格格式
+
+/*运行的时候第一个终端进入对应的文件夹下使用sudo ./server 端口号*/
+/*打开第二个终端在对应文件夹下使用sudo ./client IP 端口号进入菜单*/
+/*菜单里面有登录注册退出界面*/
+/*所有的执行过程在服务器上面能够看到，*/
